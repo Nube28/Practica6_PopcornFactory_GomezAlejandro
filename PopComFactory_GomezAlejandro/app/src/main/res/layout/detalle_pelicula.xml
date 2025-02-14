@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetallePelicula">
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BONES"
+        android:textSize="50sp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"/>
+
+
+    <ImageView
+        android:id="@+id/iv_pelicula"
+        android:layout_width="113dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/bones"/>
+
+    <TextView
+        android:id="@+id/tv_descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:text="Lorem opues papus esta es una descripcion de ejempli y muy gfeneral sobre la sinopsis hacerca de una pelicula, ti como usuario vmiras este texto salte y vuelvete a meter a la aplicacion alksdjñlaskdalñskdjañlsdkjalñskdjañlskdj aoñsdkjañlskdjalñsk dañlks jdñlak js ñdlkajsñ lkajsñlk jd"
+</LinearLayout>
