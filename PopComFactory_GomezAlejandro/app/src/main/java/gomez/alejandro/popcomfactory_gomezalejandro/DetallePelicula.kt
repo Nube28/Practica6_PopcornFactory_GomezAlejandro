@@ -18,9 +18,20 @@ class DetallePelicula : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        var iv_imagen: ImageView = findViewById(R.id.iv_peliculaa) as ImageView
+        var tv_titulo: TextView = findViewById(R.id.tv_tituloo) as TextView
+        var tv_descripcion: TextView = findViewById(R.id.tv_descripcionn) as TextView
+
+        val bundle = intent.extras
+
+        if (bundle != null) {
+            iv_imagen.setImageResource(bundle.getInt("header"))
+            tv_titulo.text = bundle.getString("nombre")
+            tv_descripcion.text = bundle.getString("sinopsis")
+        }
+
     }
 
-    var iv_imagen: ImageView = findViewById(R.id.iv_pelicula) as ImageView
-    var tv_titulo: TextView = findViewById(R.id.tv_titulo) as TextView
-    var tv_descripcion: TextView = findViewById(R.id.tv_descripcion) as TextView
+
 }
