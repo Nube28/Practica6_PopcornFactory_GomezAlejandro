@@ -3,5 +3,6 @@ package gomez.alejandro.popcomfactory_gomezalejandro
 data class Pelicula (var titulo: String,
                      var image: Int,
                      var header: Int,
-                     var sinopsis: String) {
+                     var sinopsis: String,
+                     var seats: ArrayList<Client>) {
 }

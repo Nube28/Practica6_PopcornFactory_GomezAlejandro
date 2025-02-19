@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -31,5 +32,19 @@
         android:textSize="15sp"
         android:textAlignment="center"
         android:text="Lorem opues papus esta es una descripcion de ejempli y muy gfeneral sobre la sinopsis hacerca de una pelicula, ti como usuario vmiras este texto salte y vuelvete a meter a la aplicacion alksdjñlaskdalñskdjañlsdkjalñskdjañlskdj aoñsdkjañlskdjalñsk dañlks jdñlak js ñdlkajsñ lkajsñlk jd"
+        />
+
+    <Button
+        android:id="@+id/buyTikets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Buy my ticket!"
+        />
+
+    <TextView
+        android:id="@+id/seatsLeft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         />
 </LinearLayout>

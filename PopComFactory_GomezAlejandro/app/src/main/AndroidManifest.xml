@@ -13,6 +13,9 @@
         android:theme="@style/Theme.PopComFactory_GomezAlejandro"
         tools:targetApi="31">
         <activity
+            android:name=".SeatSection"
+            android:exported="false" />
+        <activity
             android:name=".DetallePelicula"
             android:exported="false" />
         <activity
